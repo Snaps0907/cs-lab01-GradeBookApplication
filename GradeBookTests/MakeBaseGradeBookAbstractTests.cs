@@ -12,6 +12,7 @@ namespace GradeBookTests
         public void MakeBaseGradeBookAbstract()
         {
             // Test if `BaseGradeBook` is abstract.
+           
             Assert.True(typeof(BaseGradeBook).IsAbstract == true, "`GradeBook.GradeBooks.BaseGradeBook` is not abstract.");
         }
     }
